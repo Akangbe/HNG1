@@ -8,7 +8,17 @@ body {
     background-color: #eee; 
     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.gitRepo{
+margin-top: 10px;
+}
+a{
+text-decoration: none;
 
+}
+a:hover{
+    color: red;
+  
+}
 
 .container {
     background: #fff;
