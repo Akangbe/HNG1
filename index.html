@@ -12,7 +12,7 @@
         <div data-testid="slackUserName">
             Henry Akangbe
         </div>
-        <img src="./WIN_20230210_13_24_22_Pro (2).jpg" alt="Slack username" data-testid="slackDisplayImage">
+        <img src="./WhatsApp Image 2023-09-09 at 10.25.59 PM.jpeg" alt="slackDisplayImage"  data-testid="slackDisplayImage">
         <div data-testid="currentDayOfTheWeek">
           2023-09-7
         </div>
@@ -27,25 +27,8 @@
 
         </div>
     </div>
-    <script>
-        // Function to get the current day of the week
-        function getCurrentDayOfTheWeek() {
-            const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-            const today = new Date();
-            const dayOfWeek = daysOfWeek[today.getUTCDay()];
-            return dayOfWeek;
-        }
-    
-        // Function to get the current UTC time
-        function getCurrentUTCTime() {
-            const options = { hour: 'numeric', minute: 'numeric'};
-            const timeString = new Date().toLocaleTimeString('en-US', options);
-            return timeString;
-        }
-    
-    
-        document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = getCurrentDayOfTheWeek();
-        document.querySelector('[data-testid="currentUTCTime"]').textContent = getCurrentUTCTime();
+    <script src="./index.js">
+       
     </script>
     
 </body>
